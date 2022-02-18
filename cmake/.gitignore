@@ -1,0 +1,4 @@
+# going to white list files instead of blacklisting
+*
+!.gitignore
+!*.cmake

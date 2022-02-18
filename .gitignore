@@ -10,3 +10,4 @@
 !*.in
 !*.cpp
 !conanfile.txt
+!cmake
