@@ -6,3 +6,6 @@
 !.gitignore
 !src
 !test
+!CMakeLists.txt
+!*.in
+!*.cpp

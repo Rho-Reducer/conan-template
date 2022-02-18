@@ -1,0 +1,9 @@
+
+#ifndef HELLO_WORLD_H
+#define HELLO_WORLD_H
+
+#define hello_world_VERSION_MAJOR @hello_world_VERSION_MAJOR@
+#define hello_world_VERSION_MINOR @hello_world_VERSION_MINOR@
+#define hello_world_VERSION_PATCH @hello_world_VERSION_PATCH@
+
+#endif
