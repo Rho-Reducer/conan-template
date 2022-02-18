@@ -9,3 +9,4 @@
 !CMakeLists.txt
 !*.in
 !*.cpp
+!conanfile.txt

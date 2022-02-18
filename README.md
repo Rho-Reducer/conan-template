@@ -17,3 +17,19 @@ random ideas I get.
 
 GPL because this is a learner project, and I doubt this will turn into anything significant.
 
+## Build Dependencies
+
+- Python 3.5 or greater: https://www.python.org/downloads/
+- Conan Package Manager: https://docs.conan.io/en/latest/index.html
+- CMake
+- Make or Ninja
+
+## Build Example
+
+```
+$> conan install .
+$> mkdir build
+$> cd build
+$> cmake -G Ninja ..
+$> ninja
+```
