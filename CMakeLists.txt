@@ -5,8 +5,9 @@ project(hello_world VERSION 1.0.0)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-include(conanbuildinfo.cmake)
-conan_basic_setup(TARGETS)
+include(${CMAKE_BINARY_DIR}/conan_paths.cmake)
+
+find_package(Boost REQUIRED)
 
 add_subdirectory(src)
 
@@ -19,7 +20,6 @@ target_include_directories(hello_world PUBLIC
 	)
 
 target_link_libraries(hello_world
-	CONAN_PKG::boost
 	util
 	)
 
